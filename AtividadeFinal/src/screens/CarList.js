@@ -13,14 +13,13 @@ const CarList = () => {
   return (
     <View style={styles.container}>
       <StatusBar barStyle="dark-content" />
-      <Text style={styles.title}>Lista de Carros</Text>
-      <Text style={styles.subtitle}>{carsData.length} carros encontrados</Text>
+      <Text style={styles.Titulo}>Lista de Carros</Text>
+      <Text style={styles.subTitulo}>{carsData.length} carros encontrados</Text>
       
       <FlatList
         data={carsData}
         keyExtractor={(item) => item.id.toString()}
         renderItem={({ item }) => <CarCard car={item} />}
-        showsVerticalScrollIndicator={false}
         contentContainerStyle={styles.listContent}
       />
     </View>
@@ -32,7 +31,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#f5f5f5',
   },
-  title: {
+  Titulo: {
     fontSize: 24,
     fontWeight: 'bold',
     textAlign: 'center',
@@ -40,7 +39,7 @@ const styles = StyleSheet.create({
     marginBottom: 8,
     color: '#333',
   },
-  subtitle: {
+  subTitulo: {
     fontSize: 16,
     textAlign: 'center',
     marginBottom: 16,

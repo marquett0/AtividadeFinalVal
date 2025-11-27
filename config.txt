@@ -1,7 +1,14 @@
+-- Configuração do GIT
+git config --global user.name marquett0
+git config --global user.email guilhermemarquetto5@gmail.com
 
+git config --global user.name lucasSouza225
+git config --global user.email lucas2469y@gmail.com
 
+npx create-expo-app AtividadeFinal --template blank
 
-npm run web
-
+npx expo install react-dom react-native-web
 
 cd AtividadeFinal
+
+npm run web

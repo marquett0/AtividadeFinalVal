@@ -9,7 +9,7 @@ const HomeScreen = ({ navigation }) => {
       
       <TouchableOpacity 
         style={styles.button}
-        onPress={() => navigation.navigate('DiscountCalculator')}
+        onPress={() => navigation.navigate('CalcDesconto')}
       >
         <Text style={styles.buttonText}>Calculadora de Desconto</Text>
       </TouchableOpacity>

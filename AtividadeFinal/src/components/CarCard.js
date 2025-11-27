@@ -17,7 +17,6 @@ const CarCard = ({ car }) => {
           <Text style={styles.carDetail}>Ano: {car.ano}</Text>
           <Text style={styles.carDetail}>Cor: {car.cor}</Text>
         </View>
-        <Text style={styles.carId}>ID: {car.id}</Text>
       </View>
     </View>
   );

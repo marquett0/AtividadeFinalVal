@@ -12,7 +12,7 @@ export const carsData = [
     marca: 'Honda',
     modelo: 'Civic',
     ano: 2023,
-    cor: 'Preto',
+    cor: 'Chumbo',
     imagem: 'https://images.pexels.com/photos/112452/pexels-photo-112452.jpeg?auto=compress&cs=tinysrgb&w=600'
   },
   {
@@ -20,7 +20,7 @@ export const carsData = [
     marca: 'Ford',
     modelo: 'Mustang',
     ano: 2022,
-    cor: 'Vermelho',
+    cor: 'Preto',
     imagem: 'https://images.pexels.com/photos/1007410/pexels-photo-1007410.jpeg?auto=compress&cs=tinysrgb&w=600'
   },
   {
@@ -36,7 +36,7 @@ export const carsData = [
     marca: 'Mercedes-Benz',
     modelo: 'Classe C',
     ano: 2023,
-    cor: 'Branco',
+    cor: 'Amarelo',
     imagem: 'https://images.pexels.com/photos/2365572/pexels-photo-2365572.jpeg?auto=compress&cs=tinysrgb&w=600'
   },
   {
@@ -44,7 +44,7 @@ export const carsData = [
     marca: 'Volkswagen',
     modelo: 'Golf GTI',
     ano: 2022,
-    cor: 'Cinza',
-    imagem: 'https://images.pexels.com/photos/1592384/pexels-photo-1592384.jpeg?auto=compress&cs=tinysrgb&w=600'
+    cor: 'Vermelho',
+    imagem: 'https://images.pexels.com/photos/19165516/pexels-photo-19165516.jpeg'
   }
 ];

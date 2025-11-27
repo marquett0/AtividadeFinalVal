@@ -2,7 +2,7 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import HomeScreen from './src/screens/HomeScreen';
-import DiscountCalculator from './src/screens/DiscountCalculator';
+import CalcDesconto from './src/screens/CalcDesconto';
 import CarList from './src/screens/CarList';
 
 const Stack = createStackNavigator();
@@ -14,13 +14,14 @@ export default function App() {
         <Stack.Screen 
           name="Home" 
           component={HomeScreen}
-          options={{ title: 'App Móvel - Menu Principal' }}
-        />
+          options={{ title: 'Atividade Final' }}/>
+
         <Stack.Screen 
-          name="DiscountCalculator" 
-          component={DiscountCalculator}
+          name="CalcDesconto" 
+          component={CalcDesconto}
           options={{ title: 'Calculadora de Desconto' }}
         />
+
         <Stack.Screen 
           name="CarList" 
           component={CarList}
